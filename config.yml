@@ -1,0 +1,14 @@
+--- 
+:document: 
+  :source: document.glyph
+  :author: Fabio Cevasco
+  :title: Ruby Compendium
+  :subtitle: An Essential Guide to the Ruby Ecosystem
+  :filename: ruby-compendium
+  :revision: Rev. 0.1.0
+  :draft: false
+  :output: pdf
+  :styles: embed
+:output: 
+  :pdf: 
+    :generator: prince

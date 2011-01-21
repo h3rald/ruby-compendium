@@ -1,0 +1,66 @@
+book[
+	@head[
+		style[default.css]
+		?[eq[$[document.output]|pdf]|style[pagination.css]]
+		?[eq[$[filters.highlighter]|coderay]|style[coderay.css]]
+		?[eq[$[filters.highlighter]|ultraviolet]|style[ultraviolet/lazy.css]]
+	]
+	@pre-title[
+		?[eq[$[output.pdf.generator]|wkhtmltopdf]|
+			image[ruby.png]
+		]
+		?[eq[$[output.pdf.generator]|prince]|
+			image[ruby.svg
+				@width[15%]
+				@height[15%]
+			]
+		]
+	]
+  @frontmatter[
+		toc[]
+		introduction[
+			@title[So you want to learn Ruby...]
+		]
+	]
+  @bodymatter[  
+		chapter[
+			@title[Quick Tour]
+			section[
+				@title[Versions and Implementations]
+			]
+			section[
+				@title[Syntax]
+			]
+			section[
+				@title[Paradigms]
+			]
+			section[
+				@title[The Standard Library]
+			]
+		]
+		chapter[
+			@title[Gems]
+			section[
+				@title[Gem commands]
+			]
+			section[
+				@title[RubyGems.org]
+			]
+			section[
+				@title[What do I use for...]
+			]
+		]
+		chapter[
+			@title[Community]
+			section[
+				@title[People]
+			]
+			section[
+				@title[Conferences]
+			]
+			section[
+				@title[Web Sites]
+			]
+		]
+  ]
+]
