@@ -1,0 +1,63 @@
+textile[
+One thing that may appear unusual and even discouraging to newcomers is the different versions and implementations of the language. Ruby has two version branches:
+* *1.8* &ndash; The former stable version, which is still widely used in production and it is still updated.
+* *1.9* &ndash; As of release 1.9.2, this is considered the current stable and recommended version of the language. Although most third-party libraries work with it, some old and now unmaintained libraries may not. The good news is that there are normally newer and better libraries available instead.
+
+Different implementations of Ruby offer different degrees of support to one or the other version. Compared to 1.8, Ruby 1.9 has some additional syntax for certain expressions, improved character encoding support and a few new bundled libraries and features. 
+
+If you're new to Ruby and you have no particular restrictions or needs, you should start learning Ruby using version 1.9 (either =>[#yarv|YARV], =>[#jruby|JRuby] or =>[#macruby|MacRuby])!
+]
+box[If you want to know more...|
+	txt[
+There are many articles and presentations online outlining the changes in Ruby 1.9, for example:
+* =>[http://www.slideshare.net/komrade/piterrb-2-ruby-18-vs-ruby-19|Piter.rb #2 - Ruby 1.8 vs Ruby 1.9]
+* =>[http://eigenclass.org/hiki/Changes+in+Ruby+1.9|Changes in Ruby 1.9]
+* =>[http://slideshow.rubyforge.org/ruby19.html#1|Ruby 1.9: What to Expect]
+	] 
+]
+txt_section[
+	@title[MRI]
+_Matz's Ruby Interpreter_ is the official Ruby 1.8 implementation, written in C by Yukihiru Matsumoto, the creator of Ruby. As of Ruby 1.9, it has been replaced with YARV.  
+* Current Version: *1.8.7-p330*
+* Download: =>[http://www.ruby-lang.org/en/downloads/|Official Ruby Web Site]
+]
+txt_section[
+	@title[YARV]
+	@id[yarv]
+_Yet Another Ruby VM_, the official Ruby 1.9 implementation is a bytecode interpreter written Koichi Sasada. It has been tested to be faster than MRI.
+* Current Version: *1.9.2-p136*
+* Download: =>[http://www.ruby-lang.org/en/downloads/|Official Ruby Web Site]
+]
+txt_section[
+	@title[JRuby]
+	@id[jruby]
+An implementation of the Ruby language running on the Java Virtual Machine, mature and usable in production. It offers real threading, performance improvements, and Java interoperability. Fully-compatible with both Ruby 1.8 and 1.9. 
+* Current Version: *1.6.0RC1*
+* Download: =>[http://jruby.org/|JRuby Web Site]
+]
+txt_section[
+	@title[Rubinius]
+A C++ and =>[http://llvm.org/|LLVM]-powered Ruby implementation. Although still not as mature as YARV or JRuby, it's getting there. It currently aims at being compatible with Ruby 1.8.7, although support for Ruby 1.9 is planned. 
+* Current Version: *1.2.0*
+* Download: =>[http://rubini.us/|Rubinius Web Site]
+]
+txt_section[
+	@title[MacRuby]
+	@id[macruby]
+A Mac-only Ruby implementation compatible with Ruby 1.9, specifically tuned for Mac OS X operating systems.
+* Current Version: *0.8*
+* Download: =>[http://www.macruby.org/|MacRuby Web Site]
+]
+txt_section[
+	@title[IronRuby]
+A .NET implementation of the Ruby Programming Language, compatible with Ruby 1.8.6 (IronRuby 1.0) and 1.9 (IronRuby 1.1.1 onwards). Not as mature as the other implementations.
+* Current Version: *1.1.1*
+* Download: =>[http://ironruby.codeplex.com/|IronRuby CodePlex Page]
+]
+box[Isn't Ruby slow?|
+	txt[
+Being a high-level, interpreted language, Ruby is slower than compiled languages like C or C++ or even other interpreted languages like Perl 5. However, this may vary depending on the implementation. 
+* If you are interested in Ruby benchmarks, check out Antonio Cangiano's =>[http://programmingzen.com/2010/07/19/the-great-ruby-shootout-july-2010/|Great Ruby Shootout], which also includes data on =>[http://www.rubyenterpriseedition.com/|Ruby Enterprise Edition] and =>[http://ruby.gemstone.com/|MagLev] implementations.
+* If you are interested in benchmarks between Ruby implementations and other languages, the =>[http://shootout.alioth.debian.org/|Computer Language Benchmark Game] is a good place to start.
+	]
+]

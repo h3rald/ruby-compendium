@@ -20,26 +20,38 @@ book[
 		toc[]
 		introduction[
 			@title[So you want to learn Ruby...]
+			include[intro]
+			section[
+				@title[About this Book]
+				include[notes]
+			]
 		]
 	]
   @bodymatter[  
 		chapter[
 			@title[Quick Tour]
+			include[language]
 			section[
 				@title[Versions and Implementations]
+				@id[implementations]
+				include[implementations]
 			]
 			section[
 				@title[Syntax]
+				@id[syntax]
 			]
 			section[
 				@title[Paradigms]
+				@id[paradigms]
 			]
 			section[
 				@title[The Standard Library]
+				@id[stdlib]
 			]
 		]
 		chapter[
 			@title[Gems]
+			@id[gems]
 			section[
 				@title[Gem commands]
 			]
@@ -52,6 +64,7 @@ book[
 		]
 		chapter[
 			@title[Community]
+			@id[community]
 			section[
 				@title[People]
 			]
@@ -59,8 +72,25 @@ book[
 				@title[Conferences]
 			]
 			section[
-				@title[Web Sites]
+				@title[How to get help]
 			]
 		]
   ]
+  @backmatter[
+		appendix[
+			@title[Resources]
+			@id[resources]
+			section[
+				@title[Web Sites]
+				@id[websites]
+			]
+			section[
+				@title[Books]
+				@id[books]
+			]
+			section[
+				@title[Other]
+			]
+		]
+	]
 ]

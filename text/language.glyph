@@ -1,0 +1,19 @@
+textile[
+Ruby is a relatively new programming language. It was created by Yukihiro Matsumoto (aka "Matz") in 1995, but it took another ten years to become popular outside Japan, thanks to the _Ruby on Rails_ web framework.
+]
+txt_section[
+	@title[10 good things about Ruby]
+# It's free and open source.
+# It's high-level, no need to worry about memory allocation or similar.
+# It's fully cross platform, or at least most of its =>[#implementations|implementations] are.
+# It's elegant. Really, Ruby =>[#syntax|syntax] is truly beautiful, with no semicolons or braces, generally.
+# It has a huge =>[#stdlib|Standard Library].
+# It has over 1300 user-contributed =>[#gems|libraries] for almost anything you can think of. 
+# It is =>[#paradigms|multi-paradigm].
+# It has a friendly and supportive =>[#community|community]. 
+# There are loads of =>[#websites|web sites] about it and free online learning material.
+# A lot of =>[#books|books] have been written about it.
+]
+box[If you want to know more...|
+For general information on Ruby and more introductory material, head over to the =>[http://www.ruby-lang.org/|Official Ruby Web Site], in particular to the =>[http://www.ruby-lang.org/en/documentation/ruby-from-other-languages/|Ruby from Other Languages] articles, if you are already familiar with C, C++, Java, PHP, Perl, or Python.
+]
