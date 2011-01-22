@@ -1,0 +1,70 @@
+p[
+Teaching you how to program in Ruby goes beyond the scope of this book, however, this section will show you at least what Ruby code looks like. If you know another programming language already, some things may already be familiar to you. If you don't, hopefully the following code will not appear too intimidating.
+]
+highlight[=ruby|
+# This is a comment and will not be executed 
+# by the Ruby interpreter.
+#
+# This is not the usual 'Hello World' example, so 
+# don't worry if you don't understand everything. 
+# This example is meant to give you a general feeling 
+# of what it is like to write Ruby programs.
+
+require 'pathname'   # Here we're requiring an external library
+                     # which is part of the Ruby Standard Library.
+
+class FilePrinter
+
+  # Constructor method
+  def initialize(path)
+    # This method expects a valid path, however Ruby is dynamically-typed
+    # so anything can be passed to this method.
+    # To check that the input value is valid, just check if if it behaves
+    # like a path. This is called 'duck typing'.
+    raise RuntimeError, "Invalid path: #{path}" unless path.respond_to? :basename
+    @path = path
+    @name = @path.basename
+  end
+
+  def show
+    # Ruby objects and expressions can be interpolated in strings
+    puts "  #@name -- #{@path.stat.size} bytes"
+  end
+
+end
+
+class DirPrinter < FilePrinter # Definition of a child class
+
+  def initialize(path)
+    super # Call to the parent's constructur
+    @children = @path.children
+  end
+
+  def show
+    puts "  #@name/ -- #{@children.length} item(s)"
+  end
+
+end
+
+# No parenthesys are required unless needed!
+pwd = Pathname.new Dir.pwd
+
+puts "Current Directory: #{pwd}"
+
+# Get the children items of the current directory, 
+# select only directories, 
+# sort them alphabetically,
+# and for each one of them...
+pwd.children.select{\|i\| i.directory? }.sort.each do \|item\|
+  # Call the show method, printing the 
+  # directory name and the number of child items
+  DirPrinter.new(item).show
+end
+
+pwd.children.select{\|i\| !i.directory? }.sort.each do \|item\|
+  FilePrinter.new(item).show
+end
+=]
+box[Trying out Ruby...|
+If your hands are itching to try writing Ruby code, but you don't want to install it just yet, head over to =>[http://tryruby.org/|Try Ruby!], a unique way to try the language right in your browser. Or, if you already installed Ruby, follow the =>[http://www.ruby-lang.org/en/documentation/quickstart/|Ruby in 20 minutes] tutorial, using Interactive RuBy (IRB).
+]

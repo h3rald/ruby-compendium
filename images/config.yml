@@ -12,5 +12,3 @@
 :output: 
   :pdf: 
     :generator: prince
-:filters: 
-  :highlighter: coderay

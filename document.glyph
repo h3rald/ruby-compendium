@@ -39,10 +39,11 @@ book[
 			section[
 				@title[Syntax]
 				@id[syntax]
+				include[syntax]
 			]
 			section[
-				@title[Paradigms]
-				@id[paradigms]
+				@title[Language Features]
+				@id[features]
 			]
 			section[
 				@title[The Standard Library]
