@@ -1,0 +1,26 @@
+textile[
+By default, Ruby always loads its core classes and modules when a script is executed. This means that in all Ruby programs you can always instantiate core objects like:
+* Numbers (integers, floats)
+* Strings
+* Arrays
+* Hashes
+* Files
+* Regular expressions
+* Symbols
+* Threads
+* Times and dates
+* ...and many more.
+
+Most likely, this is not going to be enough. That's when the Standard Library comes into play: it's a large collection of internal libraries that ships with every Ruby implementations. There are libraries to connect to the Internet, to read/write to various file formats such as CSV or YAML, to work with files and paths, access system features, and so on. 
+
+Unlike core classes, standard libraries must be @require@d specifically if needed, before they can be used.
+]
+box[If you want to know more...|
+textile[
+On core libraries and the Standard Library, checkout the official documentation:
+* =>[http://www.ruby-doc.org/core/|Core Reference]
+* =>[http://www.ruby-doc.org/stdlib/|Standard Library Reference]
+
+Overwhelmed? Don't know where to start? Familiarize yourself with the =>[http://www.ruby-doc.org/core/classes/Enumerable.html|Enumerable] module; you won't regret it!
+	]
+]

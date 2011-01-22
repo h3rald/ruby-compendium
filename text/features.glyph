@@ -1,0 +1,26 @@
+textile[
+One of the best things about Ruby is that you're not stuck with a single programming paradigm. Even though everything in Ruby is an object (thereby making it a fully object-oriented language), nothing forbids you to program procedurally, or even use typical functional constructs.
+
+The beauty of this is that you can (and should) combine elements from different paradigms, resulting in very powerful and expressive code. What I really like about Ruby though is its inherent dynamic nature.
+
+You have a very few constraints when coding: 
+* you can open and close class definitions at will, 
+* you are not constrained by object types
+* you can mix-in methods in multiple classes at the same time
+* you can write code that _writes itself_ dynamically (this is commonly called _metaprogramming_)
+* you can easily create Domain-Specific Language to solve problems faster, with style
+* you can create and pass around blocks of code
+
+All these things make the language very flexible and powerful. Do not overuse Ruby power: if your code starts to look like black magic, you're probably going too far. 
+]
+box[If you want to know more...|
+	textile[
+...on specific and advanced Ruby features, check out these articles:
+* =>[http://olabini.com/blog/2006/09/ruby-metaprogramming-techniques/|Ruby Metaprogramming techniques]
+* =>[http://www.skorks.com/2010/05/ruby-procs-and-lambdas-and-the-difference-between-them/|Ruby Procs And Lambdas (And The Difference Between Them)]
+* =>[http://juixe.com/techknow/index.php/2006/06/15/mixins-in-ruby/|Ruby Mixin Tutorial]
+* =>[http://www.valibuk.net/2009/03/domain-specific-languages-in-ruby/|Domain Specific Languages in Ruby]
+	]
+]
+
+

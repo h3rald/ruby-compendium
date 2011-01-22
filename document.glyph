@@ -42,17 +42,20 @@ book[
 				include[syntax]
 			]
 			section[
-				@title[Language Features]
-				@id[features]
+				@title[The Core and the Standard Library]
+				@id[core-stdlib]
+				include[core-stdlib]
 			]
 			section[
-				@title[The Standard Library]
-				@id[stdlib]
+				@title[Advanced Language Features]
+				@id[features]
+				include[features]
 			]
 		]
 		chapter[
-			@title[Gems]
+			@title[Ruby Gems]
 			@id[gems]
+			include[gems]
 			section[
 				@title[Gem commands]
 			]

@@ -7,7 +7,7 @@ txt_section[
 # It's high-level, no need to worry about memory allocation or similar.
 # It's fully cross platform, or at least most of its =>[#implementations|implementations] are.
 # It's elegant. Really, Ruby =>[#syntax|syntax] is truly beautiful, with no semicolons or braces, generally.
-# It has a huge =>[#stdlib|Standard Library].
+# It has a large =>[#core-stdlib|core and Standard Library].
 # It has over 1300 user-contributed =>[#gems|libraries] for almost anything you can think of. 
 # It is multi-paradigm and offers many advanced language =>[#features|features].
 # It has a friendly and supportive =>[#community|community]. 
