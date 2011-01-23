@@ -1,0 +1,20 @@
+res[
+	@url[http://5by5.tv/rubyshow]
+	@name[The Ruby Show]
+	@desc[_The_ Ruby podcast.]
+]
+res[
+	@url[http://rubyonrails.org/screencasts]
+	@name[Ruby On Rails Screencasts]
+	@desc[Free Ruby on Rails screencasts]
+]
+res[
+	@url[http://sdruby.org/podcast]
+	@name[SD Ruby Podcast]
+	@desc[Ruby podcasts by the San Diego Ruby community.]
+]
+res[
+	@url[http://www.rubypulse.com/]
+	@name[Ruby Pulse]
+	@desc[Free Ruby-related podcasts.]
+]

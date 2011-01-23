@@ -1,0 +1,10 @@
+textile[
+There are a lot of resources out there to help you get started or stay up-to-date with Ruby. The Ruby community is active and supportive, as long as you ask nicely. 
+
+The following section contains a small set of hand-picked web sites, books and podcasts which you should definitely have a look at. For even more community resources, check out the =>[http://www.ruby-lang.org/en/community/|Community Page] on the Official Ruby Web Site.
+]
+rw:[res|
+	textile_section[
+		*\.=>[{{url}}|{{name}}]* &ndash; {{desc}}
+	]
+]

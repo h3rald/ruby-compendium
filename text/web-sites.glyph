@@ -1,0 +1,58 @@
+res[
+	@url[http://www.ruby-lang.org/]
+	@name[Ruby-Lang.org]
+	@desc[The official Ruby web site, completely maintained by members of the Ruby community and available in several languages.]
+]
+res[
+	@url[https://rubygems.org/]
+	@name[RubyGems.org]
+	@desc[The home of all Ruby gems.]
+]
+res[
+	@url[http://rubykoans.com/]
+	@name[Ruby Koans]
+	@desc[Learn Ruby (and testing) through Koans. Probably the coolest way to learn Ruby right now.]
+]
+res[
+	@url[http://rubylearning.com/]
+	@name[Ruby Learning]
+	@desc[Ruby guru =>[#satish|Satish Talim]'s web site about learning the Ruby language. It contains tutorials, study notes, and even =>[http://rubylearning.org/class/|online classes].]
+]
+res[
+	@url[http://rubycorner.com/]
+	@name[Ruby Corner]
+	@desc[The most comprehensive Ruby blog aggregator.]
+]
+res[
+	@url[http://www.rubyinside.com/]
+	@name[Ruby Inside]
+	@desc[_The_ Ruby blog, by =>[#peterc|Peter Cooper].]
+]
+res[
+	@url[http://www.ruby-forum.com/]
+	@name[Ruby Forum]
+	@desc[A mirror of the most important Ruby-related mailing lists.]
+]
+res[
+	@url[http://rubydoc.info/]
+	@name[RubyDoc.info]
+	@desc[Your one-stop resource for reference documentation. Everything from Ruby core, Standard Library, gems, and even Github-hosted Ruby projects.]
+]
+res[
+	@url[http://www.rubyflow.com/]
+	@name[RubyFlow]
+	@desc[Community-powered link blog. Created by =>[#peterc|Peter Cooper]]
+]
+res[
+	@url[http://ruby-toolbox.com/]
+	@name[The Ruby Toolbox]
+	@desc[A collection of ruby resources and libraries, organized by category and popularity.]
+]
+res[
+	@url[http://rubycommitters.org/]
+	@name[RubyCommitters.org]
+	@desc[List of all the Ruby core committers. Created by =>[#tenderlove|Aaron Petterson], currently looking for a fancy CSS makeover.]
+]
+
+
+

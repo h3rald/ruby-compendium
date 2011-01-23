@@ -1,0 +1,33 @@
+res[
+	@url[http://www.humblelittlerubybook.com/book/]
+	@name[The Humble Little Ruby Book]
+	@desc[A nicely-written free book on Ruby, by =>[#jm|Jeremy McAnally]]
+]
+res[
+	@url[http://www.sapphiresteel.com/The-Little-Book-Of-Ruby]
+	@name[The Little Book of Ruby]
+	@desc[An 87-page free introduction covering Ruby basics.]
+]
+res[
+	@url[http://www.sapphiresteel.com/Blog/The-Book-Of-Ruby-free-in-depth]
+	@name[The Book of Ruby]
+	@desc[A 400-page free Ruby bible by Huw Collingbourne.]
+]
+res[
+	@url[http://ruby-doc.org/docs/ProgrammingRuby/]
+	@name[Programming Ruby]
+	@desc[The first edition of the so-called _Pickaxe_ book, available for free, by =>[#davethomas|Dave Thomas], =>[#chad|Chad Fowler] and =>[#andyhunt|Andy Hunt]]
+]
+res[
+	@url[http://mislav.uniqpath.com/poignant-guide/]
+	@name[Why's (poignant) guide to Ruby]
+	@desc[The legendary book by =>[#_why|why the lucky stiff]. With foxes, little elves, and... chunky bacon!). Exquisitely weird and witty.]
+]
+box[What about "real" books?|
+	textile[
+All the books mentioned so far are free, but there's plenty of published books on Ruby. Check out the following titles:
+* =>[http://www.informit.com/imprint/series_detail.aspx?ser=2124042|Addison-Wesley Progessional Ruby Series]
+* =>[http://oreilly.com/pub/topic/ruby|Ruby books by O'Reilly]
+* =>[http://pragprog.com/categories/ruby_and_rails|Ruby books by Pragmatic Programmers]
+	]
+]

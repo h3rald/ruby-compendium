@@ -100,7 +100,7 @@ section[
 		@desc[RuGUI is a framework which aims to help building desktop applications. RuGUI was mostly inspired by the Ruby on Rails framework, taking most of its features from it.]
 	]
 	box[What about Shoes?|
-=>[http://shoesrb.com/|Shoes] is a cross-platform, easy-to-use Ruby toolkit originally created by =>[#_why|why the lucky stiff]. Unfortunately, it is distributed as a standalone application rather than a gem (yet), due to its internal architecture and dependencies.
+=>[http://shoesrb.com/|Shoes] is a cross-platform, easy-to-use Ruby toolkit originally created by =>[#_why]. Unfortunately, it is distributed as a standalone application rather than a gem (yet), due to its internal architecture and dependencies.
 	]
 ]
 section[

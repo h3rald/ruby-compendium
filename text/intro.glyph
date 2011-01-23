@@ -1,11 +1,11 @@
 textile[
-...or maybe not. Maybe you're _thinking_ about it, but you're not entirely convinced it's a good idea. Maybe you have an annoying co-worker who constantly raves about it and made you curious. Whatever the case, this tiny booklet is about telling you all you need to know about the language before you actually start getting your hands dirty.
+...or maybe not. Maybe you're _thinking_ about it, but you're not entirely convinced it's a good idea. Maybe you have an annoying co-worker who constantly raves about it and made you curious. Whatever the case, this tiny book is about telling you all you need to know about the language before you actually start getting your hands dirty.
 
 There are many different ways to learn new programming languages. Typically, you'd start reading tutorials online, try a few example programs, maybe buy a book and start reading it. That's what most people do nowadays, and it works, in the end. The downside of this is that you may spend weeks or even months trying to get the hang of the language, spend a lot of time trying to find information about it, ask dumb questions in forums and mailing lists, re-invent the wheel only to find out &mdash;months later&mdash; that someone already made a library which does exactly the same thing as yours, but in a much better way.
 
-You can learn through mistakes, but there's no harm in starting with the right foot, at least. 
+You can learn through mistakes, but there's no harm in starting with the right foot. 
 
-This _Ruby Compendium_ gives you an overview of the Ruby Ecosystem from 10,000ft. It briefly describes the language, its libraries, and its community. By the time you finish reading it, you won't know how to write advanced Ruby programs but you'll definitely know _how to learn_ this amazing and powerful language, where to look for information and help, and how to create and manage your first projects in a way that makes sense for you and others. 
+This _Ruby Compendium_ gives you an overview of the Ruby Ecosystem from 10,000ft. It briefly describes the language, its libraries, and what resources you can find online. By the time you finish reading this, you will _not_ know how to write Ruby programs (yet) but you'll definitely know _how to learn_ this amazing and powerful language and where to look for information and help. 
 
 Close your editor now, relax, and enjoy!
 ]

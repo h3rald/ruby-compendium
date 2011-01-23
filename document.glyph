@@ -62,35 +62,30 @@ book[
 			]
 		]
 		chapter[
-			@title[Community]
-			@id[community]
-			include[community]
-			section[
-				@title[How to get help]
-			]
-			section[
-				@title[People]
-			]
-		]
-  ]
-  @backmatter[
-		appendix[
 			@title[Resources]
 			@id[resources]
+			include[resources]
 			section[
 				@title[Web Sites]
 				@id[websites]
+				include[web-sites]
 			]
 			section[
 				@title[Books]
 				@id[books]
+				include[books]
 			]
 			section[
-				@title[Conferences]
+				@title[Podcasts and Screencasts]
+				@id[podcasts]
+				include[podcasts]
 			]
-			section[
-				@title[Other]
-			]
+  	]
+	]
+	@backmatter[
+		appendix[
+			@title[Notable Rubyists]
+			include[rubyists]
 		]
 	]
 ]

@@ -11,7 +11,7 @@ You have a very few constraints when coding:
 * you can easily create Domain-Specific Language to solve problems faster, with style
 * you can create and pass around blocks of code
 
-All these things make the language very flexible and powerful. Do not overuse Ruby power: if your code starts to look like black magic, you're probably going too far. 
+All these things make the language very flexible and powerful. Do not overuse Ruby's power: if your code starts to look like black magic, you're probably going too far. 
 ]
 box[If you want to know more...|
 	textile[
