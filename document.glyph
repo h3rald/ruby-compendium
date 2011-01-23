@@ -57,26 +57,19 @@ book[
 			@id[gems]
 			include[gems]
 			section[
-				@title[Gem commands]
-			]
-			section[
-				@title[RubyGems.org]
-			]
-			section[
-				@title[What do I use for...]
+				@title[What you can use for...]
+				include[gem-tips]
 			]
 		]
 		chapter[
 			@title[Community]
 			@id[community]
-			section[
-				@title[People]
-			]
-			section[
-				@title[Conferences]
-			]
+			include[community]
 			section[
 				@title[How to get help]
+			]
+			section[
+				@title[People]
 			]
 		]
   ]
@@ -91,6 +84,9 @@ book[
 			section[
 				@title[Books]
 				@id[books]
+			]
+			section[
+				@title[Conferences]
 			]
 			section[
 				@title[Other]

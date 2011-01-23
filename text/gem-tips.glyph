@@ -1,0 +1,268 @@
+textile[
+You could spend hours on the RubyGems web site to find what you're looking for sometimes. Not because you can't find it, but because often there are too many alternative libraries that overlap in terms of functionalities offered.
+
+A site to check when you don't know much of what has been done in a particular domain is =>[http://ruby-toolbox.com/|The Ruby Toolbox], which organizes quite a lot of gems into =>[http://ruby-toolbox.com/categories.html|categories]. This section is somewhat similar, but it focuses on just a few common tasks and a small set of hand-picked gems.
+
+]
+rw:[gem|
+	textile[
+*{{name}}* blockquote["{{desc}}"]
+* Web Page: =>[{{url}}]
+* Download: =>[http://www.rubygems.org/gems/{{name}}]
+* Documentation: =>[http://www.rubydoc.info/gems/{{name}}]
+	]
+]
+section[
+	@title[Command Line Applications]
+	gem[
+		@name[cmdparse]
+		@url[http://cmdparse.rubyforge.org/]
+		@desc[cmdparse provides classes for parsing commands on the command line; command line options are parsed using optparse or any other option parser implementation. ]
+	]
+	gem[
+		@name[gli]
+		@url[http://davetron5000.github.com/gli]
+		@desc[An application and API for describing command line interfaces that can be used to quickly create a shell for executing command-line tasks.]
+	]
+	gem[
+		@name[highline]
+		@url[http://highline.rubyforge.org/]
+		@desc[A high-level IO library that provides validation, type conversion, and more for command-line interfaces. HighLine also includes a complete menu system that can crank out anything from simple list selection to complete shells with just minutes of work.]
+	]
+	gem[
+		@name[hirb]
+		@url[https://github.com/cldwalker/hirb]
+		@desc[A mini view framework for console/irb that's easy to use, even while under its influence. Console goodies include a no-wrap table, auto-pager, tree and menu]
+	]
+
+]
+section[
+	@title[Documentation]
+	gem[
+		@name[glyph]
+		@url[http://www.h3rald.com/glyph/]
+		@desc[Glyph is a framework for structured document authoring.]
+	]
+	gem[
+		@name[rdoc]
+		@url[https://github.com/rdoc/rdoc/]
+		@desc[RDoc produces HTML and online documentation for Ruby projects. RDoc includes the rdoc and ri tools for generating and displaying online documentation.]
+	]
+	gem[
+		@name[yard]
+		@url[http://yardoc.org/]
+		@desc[YARD is a documentation generation tool for the Ruby programming language. It enables the user to generate consistent, usable documentation that can be exported to a number of formats very easily, and also supports extending for custom Ruby constructs such as custom class level definitions.]
+	]
+]
+section[
+	@title[Gem Management]
+	gem[
+		@name[bundler]
+		@url[http://gembundler.com/]
+		@desc[Bundler manages an application's dependencies through its entire life, across many machines, systematically and repeatably.]
+	]
+	gem[
+		@name[jeweler]
+		@url[http://github.com/technicalpickles/jeweler]
+		@desc[Simple and opinionated helper for creating Rubygem projects on GitHub]
+	]
+	gem[
+		@name[bones]
+		@url[https://github.com/TwP/bones]
+		@desc[Mr Bones is a handy tool that creates new projects from a code skeleton.]
+	]
+]
+section[
+	@title[GUI Programming]
+	gem[
+		@name[bowline]
+		@url[http://bowlineapp.com/]
+		@desc[Ruby/JS GUI framework]
+	]
+	gem[
+		@name[fxruby]
+		@url[http://www.fxruby.org/]
+		@desc[FXRuby is the Ruby binding to the FOX GUI toolkit]
+	]
+	gem[
+		@name[wxruby]
+		@url[http://wxruby.org/]
+		@desc[wxRuby allows the creation of graphical user interface (GUI) applications via the wxWidgets library. wxRuby provides native-style GUI windows, dialogs and controls on platforms including Windows, OS X and Linux.]
+	]
+	gem[
+		@name[qtruby4]
+		@url[http://rubyforge.org/projects/korundum/]
+		@desc[Qt4 Bindings for Ruby.]
+	]
+	gem[
+		@name[rugui]
+		@url[http://rugui.org/]
+		@desc[RuGUI is a framework which aims to help building desktop applications. RuGUI was mostly inspired by the Ruby on Rails framework, taking most of its features from it.]
+	]
+	box[What about Shoes?|
+=>[http://shoesrb.com/|Shoes] is a cross-platform, easy-to-use Ruby toolkit originally created by =>[#_why|why the lucky stiff]. Unfortunately, it is distributed as a standalone application rather than a gem (yet), due to its internal architecture and dependencies.
+	]
+]
+section[
+	@title[Markup and Template Languages]
+	gem[
+		@name[bluecloth]
+		@url[http://www.deveiate.org/projects/BlueCloth]
+		@desc[BlueCloth is a Ruby implementation of Markdown, a text-to-HTML conversion tool for web writers. To quote from the project page: Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).]
+	]
+	gem[
+		@name[github-markup]
+		@url[http://github.com/github/markup]
+		@desc[This gem is used by GitHub to render any fancy markup such as Markdown, Textile, Org-Mode, etc. Fork it and add your own!]
+	]
+	gem[
+		@name[haml]
+		@url[http://haml-lang.com/]
+		@desc[Haml (HTML Abstraction Markup Language) is a layer on top of XHTML or XML that's designed to express the structure of XHTML or XML documents in a non-repetitive, elegant, easy way, using indentation rather than closing tags and allowing Ruby to be embedded with ease. It was originally envisioned as a plugin for Ruby on Rails, but it can function as a stand-alone templating engine.]
+	]
+	gem[
+		@name[liquid]
+		@url[http://www.liquidmarkup.org/]
+		@desc[A secure, non-evaling end user template engine with aesthetic markup.]
+	]
+	gem[
+		@name[mustache]
+		@url[http://github.com/defunkt/mustache]
+		@desc[Inspired by ctemplate, Mustache is a framework-agnostic way to render logic-free views. As ctemplates says, "It emphasizes separating logic from presentation: it is impossible to embed application logic in this template language. Think of Mustache as a replacement for your views. Instead of views consisting of ERB or HAML with random helpers and arbitrary logic, your views are broken into two parts: a Ruby class and an HTML template.]
+	]
+	gem[
+		@name[rdiscount]
+		@url[http://github.com/rtomayko/rdiscount/]
+		@desc[Fast Implementation of Gruber's Markdown in C]
+	]
+	gem[
+		@name[redcloth]
+		@url[http://redcloth.org/]
+		@desc[RedCloth is a Ruby library for converting Textile into HTML.]
+	]
+]
+section[
+	@title[Static Web Site Generators]
+	gem[
+		@name[jeckyll]
+		@url[http://jekyllrb.com/]
+		@desc[Jekyll is a simple, blog aware, static site generator.]
+	]
+	gem[
+		@name[nanoc]
+		@url[http://nanoc.stoneship.org/]
+		@desc[a web publishing system written in Ruby for building small to medium-sized websites.]
+	]
+	gem[
+		@name[toto]
+		@url[http://cloudhead.io/toto]
+		@desc[the tiniest blog-engine in Oz.]
+	]
+	gem[
+		@name[webby]
+		@url[http://webby.rubyforge.org/]
+		@desc[Webby is a fantastic little website management system. It would be called a content management system if it were a bigger kid. But, it's just a runt with a special knack for transforming text. And that's really all it does - manages the legwork of turning text into something else, an ASCII Alchemist if you will. ]
+	]
+]
+section[
+	@title[Testing]
+	gem[
+		@name[bacon]
+		@url[http://github.com/chneukirchen/bacon]
+		@desc[Bacon is a small RSpec clone weighing less than 350 LoC but nevertheless providing all essential features.]
+	]
+	gem[
+		@name[cucumber]
+		@url[http://cukes.info/]
+		@desc[Behaviour Driven Development with elegance and joy]
+	]
+	gem[
+		@name[minitest]
+		@url[https://github.com/seattlerb/minitest]
+		@desc[minitest provides a complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking. minitest/unit is a small and incredibly fast unit testing framework.]
+	]
+	gem[
+		@name[rspec]
+		@url[http://relishapp.com/rspec]
+		@desc[RSpec is a Behaviour-Driven Development tool for Ruby programmers. BDD is an approach to software development that combines Test-Driven Development, Domain Driven Design, and Acceptance Test-Driven Planning. RSpec helps you do the TDD part of that equation, focusing on the documentation and design aspects of TDD.]
+	]
+	gem[
+		@name[shoulda]
+		@url[http://www.thoughtbot.com/projects/shoulda]
+		@desc[Making tests easy on the fingers and eyes]
+	]
+]
+section[
+	@title[Web Development]
+	gem[
+		@name[rails]
+		@url[http://rubyonrails.org/]
+		@desc[Ruby on Rails is a full-stack web framework optimized for programmer happiness and sustainable productivity. It encourages beautiful code by favoring convention over configuration.]
+	]
+	gem[
+		@name[sinatra]
+		@url[http://www.sinatrarb.com/]
+		@desc[Classy web-development dressed in a DSL]
+	]
+	gem[
+		@name[padrino-framework]
+		@url[http://www.padrinorb.com/]
+		@desc[The Godfather of Sinatra provides a full-stack agnostic framework on top of Sinatra]
+	]
+	gem[
+		@name[merb-core]
+		@url[http://www.merbivore.com/]
+		@desc[Merb. Pocket rocket web framework.]
+	]
+	gem[
+		@name[ramaze]
+		@url[http://ramaze.net/]
+		@desc[Ramaze is a simple and modular web framework]
+	]
+	gem[
+		@name[camping]
+		@url[http://camping.rubyforge.org/]
+		@desc[minature rails for stay-at-home moms]
+	]
+]
+section[
+	@title[Web and App Servers]
+	gem[
+		@name[passenger]
+		@url[http://www.modrails.com/]
+		@desc[Easy and robust Ruby web application deployment.]
+	]
+	gem[
+		@name[rack]
+		@url[http://rack.rubyforge.org/]
+		@desc[Rack provides a minimal interface between webservers supporting Ruby and Ruby frameworks.]
+	]
+	gem[
+		@name[thin]
+		@url[http://code.macournoyer.com/thin/]
+		@desc[A thin and fast web server]
+	]
+	gem[
+		@name[unicorn]
+		@url[http://unicorn.bogomips.org/]
+		@desc[Unicorn is an HTTP server for Rack applications designed to only serve fast clients on low-latency, high-bandwidth connections and take advantage of features in Unix/Unix-like kernels.]
+	]
+]
+section[
+	@title[XML Parsing]
+	gem[
+		@name[hpricot]
+		@url[http://code.whytheluckystiff.net/hpricot/]
+		@desc[a swift, liberal HTML parser with a fantastic library]
+	]
+	gem[
+		@name[nokogiri]
+		@url[http://nokogiri.org/]
+		@desc[An HTML, XML, SAX, & Reader parser with the ability to search documents via XPath or CSS3 selectors... and much more]
+	]
+	gem[
+		@name[xml-simple]
+		@url[http://xml-simple.rubyforge.org/]
+		@desc[A simple API for XML processing.]
+	]
+]

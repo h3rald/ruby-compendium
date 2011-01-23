@@ -1,0 +1,18 @@
+textile[
+Sure, the =>[#core-stdlib|Standard Library] is quite large but... no, it does not have everything you need. Most likely, you won't be requiring many standard libraries in your programs, at least not directly. Why? Because _it's full of gems out there_. Rubygems is Ruby's packaging system, and the best way to distribute your own Ruby libraries and applications.
+
+The Rubygems packaging system is now included in most Ruby implementation and distributions. Installing a gem and all its dependencies is as easy as issuing @gem install <name of the gem>@. So for example if you want to install the =>[https://rubygems.org/gems/rails|rails] gem, you can just run
+
+@gem install rails@
+
+...and it will be automatically downloaded and installed on your system, along with the other gems it depends on.
+]
+section[
+	@title[RubyGems.org]
+There are over 1300 different gems publicly (and freely!) available. Luckily, the official gem host site, =>[http://www.rubygems.org|RubyGems.org] makes it very easy to find what you're looking for: just search for a particular gem or a functionality you're looking for, and browse through the results. You can also register and _push_ your own gems for other people to use.
+]
+box[What happened to RubyForge?|
+	textile[
+If you started to learn Ruby a few years ago, the =>[http://www.rubyforge.org|RubyForge] was _the_ place to find user-created ruby code and gems. The site is still there, but nowadays Rubyists prefer using =>[http://www.github.com|GitHub] as host for their source code repositories and RubyGems.org as the home for their gems.
+	]
+]
