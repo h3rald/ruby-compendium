@@ -1,0 +1,9 @@
+This book was written to help newcomers to learn about the Ruby programming language. It doesn't focus on learning the language, but rather on its vast ecosystem and freely available resources.
+
+h3. License
+
+This book was written by Fabio Cevasco and it is licensed under a =>[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons Attribution-ShareAlike 3.0 Unported License].
+
+h3. Contributing
+
+This book was authored using glyph "Glyph":http://www.h3rald.com/glyph and its source code is hosted on "Github":http://github.com/h3rald/ruby-compendium. Contributions are very welcome! Feel free to contact the author and/or fork the repository. 
