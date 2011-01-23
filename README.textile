@@ -2,7 +2,7 @@ This book was written to help newcomers to learn about the Ruby programming lang
 
 h3. License
 
-This book was written by Fabio Cevasco and it is licensed under a =>[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons Attribution-ShareAlike 3.0 Unported License].
+This book was written by Fabio Cevasco and it is licensed under a "Creative Commons Attribution-ShareAlike 3.0 Unported License":http://creativecommons.org/licenses/by-sa/3.0/.
 
 h3. Contributing
 
