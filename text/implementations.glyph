@@ -44,7 +44,7 @@ A C++ and =>[http://llvm.org/|LLVM]-powered Ruby implementation. Although still 
 txt_section[
 	@title[MacRuby]
 	@id[macruby]
-A Mac-only Ruby implementation compatible with Ruby 1.9, specifically tuned for Mac OS X operating systems.
+A Mac-only Ruby 1.9 implementation written on top of Objective-C, Cocoa and friends. MacRuby applications have access to most OS X frameworks and can be compiled to native binaries for Mac OS X.
 * Current Version: *0.8*
 * Download: =>[http://www.macruby.org/|MacRuby Web Site]
 ]
