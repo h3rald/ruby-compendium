@@ -13,7 +13,7 @@ rw:[person|
 person[
 	@name[Yukihiro Matsumoto]
 	@id[matz]
-	@twitter[yukihiro_matx]
+	@twitter[yukihiro_matz]
 	@url[http://www.rubyist.net/~matz/]
 	@desc[The creator of the Ruby Programming Language.]
 ]
