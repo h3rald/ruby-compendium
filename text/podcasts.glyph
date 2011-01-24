@@ -1,7 +1,12 @@
 res[
 	@url[http://5by5.tv/rubyshow]
 	@name[The Ruby Show]
-	@desc[_The_ Ruby podcast.]
+	@desc[_The_ Ruby podcast, with =>[#danbenjamin|Dan Benjamin] and =>[#jseifer|Jason Seifer].]
+]
+res[
+	@url[http://ruby5.envylabs.com/]
+	@name[Ruby5]
+	@desc[Frequently-released short podcasts on what's new in the Ruby and Rails community. By =>[#greggpollack|Gregg Pollack].]
 ]
 res[
 	@url[http://rubyonrails.org/screencasts]
