@@ -222,7 +222,7 @@ section[
 	gem[
 		@name[camping]
 		@url[http://camping.rubyforge.org/]
-		@desc[minature rails for stay-at-home moms]
+		@desc[miniature rails for stay-at-home moms]
 	]
 ]
 section[
