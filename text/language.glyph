@@ -1,5 +1,5 @@
 textile[
-Ruby is a relatively new programming language. It was created by =>[#matz|Yukihiro Matzumoto] (aka "Matz") in 1995, but it took another ten years to become popular outside Japan, thanks to the _Ruby on Rails_ web framework.
+Ruby is a relatively new programming language. It was created by =>[#matz|Yukihiro Matsumoto] (aka "Matz") in 1995, but it took another ten years to become popular outside Japan, thanks to the _Ruby on Rails_ web framework.
 ]
 txt_section[
 	@title[10 good things about Ruby]
