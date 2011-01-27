@@ -46,7 +46,7 @@ class DirPrinter < FilePrinter # Definition of a child class
 
 end
 
-# No parenthesys are required unless needed!
+# No parenthesis are required unless needed!
 pwd = Pathname.new Dir.pwd
 
 puts "Current Directory: #{pwd}"
