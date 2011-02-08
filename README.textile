@@ -6,4 +6,4 @@ This book was written by Fabio Cevasco and it is licensed under a "Creative Comm
 
 h3. Contributing
 
-This book was authored using glyph "Glyph":http://www.h3rald.com/glyph and its source code is hosted on "Github":http://github.com/h3rald/ruby-compendium. Contributions are very welcome! Feel free to contact the author and/or fork the repository. 
+This book was authored using "Glyph":http://www.h3rald.com/glyph and its source code is hosted on "Github":http://github.com/h3rald/ruby-compendium. Contributions are very welcome! Feel free to contact the author and/or fork the repository. 
