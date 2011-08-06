@@ -126,6 +126,10 @@ sup {
   margin: auto;
   text-align: center; }
 
+code {
+  font-size: 0.8em;
+}
+
 .note, .important, .tip, .caution, .box {
   border: 1px solid #CCC;
   display: block;
