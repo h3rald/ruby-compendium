@@ -4,7 +4,7 @@ You could spend hours on the RubyGems web site to find what you're looking for s
 A site to check when you don't know much of what has been done in a particular domain is =>[http://ruby-toolbox.com/|The Ruby Toolbox], which organizes quite a lot of gems into =>[http://ruby-toolbox.com/categories.html|categories]. This section is somewhat similar, but it focuses on just a few common tasks and a small set of hand-picked gems.
 
 ]
-rw:[gem|
+def:[gem|
 	textile[
 *{{name}}* blockquote["{{desc}}"]
 * Web Page: =>[{{url}}]
