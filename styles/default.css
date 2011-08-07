@@ -38,20 +38,21 @@ body {
   text-align: center; }
   .titlepage h1 {
     font-size: 2.5em;
+    line-height: 1.2em;
     font-weight: bold;
-    line-height: 1.5em;
     margin-bottom: 0.2em; }
 
 .halftitlepage h1 {
   font-size: 2.5em;
   font-weight: bold;
-  line-height: 1.5em;
   margin-bottom: 0.2em; }
 .halftitlepage h2 {
   font-size: 1.1em;
   font-style: italic;
   font-weight: bold;
-  line-height: 1.2em;
+  padding-top: 0;
+  margin-top: 0;
+  line-height: 2.5em;
   margin-bottom: 0.5em;
   prince-bookmark-level: none; }
 
@@ -59,7 +60,9 @@ body {
   font-size: 1.1em;
   font-style: italic;
   font-weight: bold;
-  line-height: 1.2em;
+  padding-top: 0;
+  margin-top: 0;
+  line-height: 2.5em;
   margin-bottom: 0.5em;
   prince-bookmark-level: none; }
 
