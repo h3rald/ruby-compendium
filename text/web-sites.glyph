@@ -51,8 +51,11 @@ res[
 res[
 	@url[http://rubycommitters.org/]
 	@name[RubyCommitters.org]
-	@desc[List of all the Ruby core committers. Created by =>[#tenderlove|Aaron Petterson], currently looking for a fancy CSS makeover.]
+	@desc[List of all the Ruby core committers. Created by =>[#tenderlove|Aaron Petterson].]
 ]
-
-
+res[
+	@url[http://rubylang.info/]
+	@name[RubyLang.info]
+	@desc[em["RubyLang.info is a community driven web site, dedicated to helping both new and experienced Ruby developers."]]
+]
 

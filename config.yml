@@ -10,7 +10,15 @@
   :output: pdf
   :styles: embed
 :output: 
+  :h3rald:
+    :multifile: true
+    :extension: .html
+    :filter_target: html
+    :base: /ruby-compendium/book/
+    :macro_reps: html5
+    :layout_dir: web5
+    :layouts:
+      :topic: bookpage
+      :index: bookindex
   :pdf: 
     :generator: prince
-:filters: 
-  :highlighter: coderay

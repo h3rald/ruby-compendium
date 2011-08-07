@@ -1,91 +1,93 @@
 book[
 	@head[
 		style[default.css]
-		?[eq[$[document.output]|pdf]|style[pagination.css]]
+		?[output?[pdf]|style[pagination.css]]
 		?[eq[$[filters.highlighter]|coderay]|style[coderay.css]]
 		?[eq[$[filters.highlighter]|ultraviolet]|style[ultraviolet/lazy.css]]
 	]
 	@pre-title[
-		?[eq[$[output.pdf.generator]|wkhtmltopdf]|
-			image[ruby.png]
-		]
-		?[eq[$[output.pdf.generator]|prince]|
-			image[ruby.svg
-				@width[15%]
-				@height[15%]
-			]
-		]
+    ?[output?[pdf]|
+		  image[ruby-compendium/ruby.svg
+		  	@width[15%]
+		  	@height[15%]
+		  ]
+    ]
 	]
   @frontmatter[
 		toc[]
 		introduction[
 			@title[So you want to learn Ruby...]
-			include[intro]
+			@src[intro]
 			section[
 				@title[About this Book]
-				include[notes]
+				@src[notes]
 			]
 		]
 	]
   @bodymatter[  
 		chapter[
 			@title[Quick Tour]
-			include[language]
+			@src[language]
+			section[
+				@title[10 Good Things about Ruby]
+				@id[ten-good-things]
+				@src[ten-good-things]
+			]
 			section[
 				@title[Versions and Implementations]
 				@id[implementations]
-				include[implementations]
+				@src[implementations]
 			]
 			section[
 				@title[Syntax]
 				@id[syntax]
-				include[syntax]
+				@src[syntax]
 			]
 			section[
 				@title[The Core and the Standard Library]
 				@id[core-stdlib]
-				include[core-stdlib]
+				@src[core-stdlib]
 			]
 			section[
 				@title[Advanced Language Features]
 				@id[features]
-				include[features]
+				@src[features]
 			]
 		]
 		chapter[
 			@title[Ruby Gems]
 			@id[gems]
-			include[gems]
+			@src[gems]
 			section[
 				@title[What you can use for...]
-				include[gem-tips]
+				@src[gem-tips]
 			]
 		]
 		chapter[
 			@title[Resources]
 			@id[resources]
-			include[resources]
+			@src[resources]
 			section[
 				@title[Web Sites]
 				@id[websites]
-				include[web-sites]
+				@src[web-sites]
 			]
 			section[
 				@title[Books]
 				@id[books]
-				include[books]
+				@src[books]
 			]
 			section[
 				@title[Podcasts and Screencasts]
 				@id[podcasts]
-				include[podcasts]
+				@src[podcasts]
 			]
   	]
 	]
 	@backmatter[
 		appendix[
 			@title[Notable Rubyists]
-			include[rubyists]
+			@src[rubyists]
 		]
 	]
 ]

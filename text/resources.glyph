@@ -4,7 +4,7 @@ There are a lot of resources out there to help you get started or stay up-to-dat
 The following section contains a small set of hand-picked web sites, books and podcasts which you should definitely have a look at. For even more community resources, check out the =>[http://www.ruby-lang.org/en/community/|Community Page] on the Official Ruby Web Site.
 ]
 def:[res|
-	textile_section[
+	txt[
 		*\/=>[{{url}}|{{name}}]* &ndash; {{desc}}
 	]
 ]

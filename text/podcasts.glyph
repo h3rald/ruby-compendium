@@ -1,7 +1,12 @@
 res[
 	@url[http://5by5.tv/rubyshow]
 	@name[The Ruby Show]
-	@desc[_The_ Ruby podcast.]
+	@desc[_The_ Ruby podcast, with =>[#danbenjamin|Dan Benjamin] and =>[#jseifer|Jason Seifer].]
+]
+res[
+	@url[http://ruby5.envylabs.com/]
+	@name[Ruby5]
+	@desc[Frequently-released short podcasts on what's new in the Ruby and Rails community. By =>[#greggpollack|Gregg Pollack].]
 ]
 res[
 	@url[http://rubyonrails.org/screencasts]
@@ -17,4 +22,9 @@ res[
 	@url[http://www.rubypulse.com/]
 	@name[Ruby Pulse]
 	@desc[Free Ruby-related podcasts.]
+]
+res[
+	@url[http://ruby-kickstart.com/]
+	@name[Ruby Kickstart]
+	@desc[Hours of free screencast to teach you how to program in Ruby, with loads of free material, quizzes, and goodies.]
 ]

@@ -23,7 +23,17 @@ res[
 	@name[Why's (poignant) guide to Ruby]
 	@desc[The legendary book by =>[#_why|why the lucky stiff]. With foxes, little elves, and... chunky bacon!). Exquisitely weird and witty.]
 ]
-box[What about "real" books?|
+res[
+	@url[http://ruby.runpaint.org/]
+	@name[Read Ruby 1.9]
+	@desc[em["Very early draft of a book about version 1.9 of the Ruby programming language, released under a Creative Commons license."]]
+]
+res[
+	@url[http://ruby.learncodethehardway.org/]
+	@name[Learn Ruby The Hard Way]
+	@desc[A Ruby translation of the popular book em[Learn Python The Hard Way], by Zed Shaw.]
+]
+box[What about em[real] books?|
 	textile[
 All the books mentioned so far are free, but there's plenty of published books on Ruby. Check out the following titles:
 * =>[http://www.informit.com/imprint/series_detail.aspx?ser=2124042|Addison-Wesley Progessional Ruby Series]

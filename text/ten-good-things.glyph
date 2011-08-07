@@ -1,0 +1,15 @@
+txt[
+# It's free and open source.
+# It's high-level, no need to worry about memory allocation or similar.
+# It's fully cross platform, or at least most of its =>[#implementations|implementations] are.
+# It's elegant. Really, Ruby =>[#syntax|syntax] is truly beautiful, with no semicolons or braces, generally.
+# It has a large =>[#core-stdlib|core and Standard Library].
+# It has over 1300 user-contributed =>[#gems|libraries] for almost anything you can think of. 
+# It is multi-paradigm and offers many advanced language =>[#features|features].
+# It has a friendly and supportive community and plenty of useful =>[#resources|resources]. 
+# There are loads of =>[#websites|web sites] about it and free online learning material.
+# A lot of =>[#books|books] have been written about it.
+]
+box[If you want to know more...|
+For general information on Ruby and more introductory material, head over to the =>[http://www.ruby-lang.org/|Official Ruby Web Site], in particular to the =>[http://www.ruby-lang.org/en/documentation/ruby-from-other-languages/|Ruby from Other Languages] articles, if you are already familiar with C, C++, Java, PHP, Perl, or Python.
+]

@@ -1,0 +1,23 @@
+----- 
+permalink: ruby-compendium
+filters_pre: 
+- erb
+- redcloth
+title: "Project: Ruby Compendium"
+subtitle: "An Essential Guide to the Ruby Ecosystem"
+type: project
+github: ruby-compendium
+links:
+- "Download": https://github.com/h3rald/ruby-compendium/downloads
+- "Read Online": /ruby-compendium/book
+- "Source": https://github.com/h3rald/ruby-compendium
+- "Tracking": http://github.com/h3rald/ruby-compendium/issues
+status: Active
+version: 0.2.0
+-----
+
+<%= render 'project_data', :tag => 'ruby-compendium' %>
+
+{{contents}}
+
+<%= render 'project_updates', :tag => 'ruby-compendium' %>
