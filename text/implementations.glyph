@@ -17,6 +17,7 @@ There are many articles and presentations online outlining the changes in Ruby 1
 ]
 txt_section[
 	@title[Official Ruby 1.8 Implementation]
+  @notoc[true]
 The official Ruby 1.8 implementation was written in C by Yukihiru Matsumoto, the creator of Ruby.  
 * Current Version: *1.8.7-p352*
 * Download: =>[http://www.ruby-lang.org/en/downloads/|Official Ruby Web Site]
@@ -24,6 +25,7 @@ The official Ruby 1.8 implementation was written in C by Yukihiru Matsumoto, the
 txt_section[
 	@title[Official Ruby 1.9 Implementation]
 	@id[yarv]
+  @notoc[true]
 The official Ruby 1.9 implementation is based on a bytecode interpreter written Koichi Sasada.
 * Current Version: *1.9.2-p200*
 * Preview Version: *1.9.2-preview1*
@@ -32,12 +34,14 @@ The official Ruby 1.9 implementation is based on a bytecode interpreter written 
 txt_section[
 	@title[JRuby]
 	@id[jruby]
+  @notoc[true]
 An implementation of the Ruby language running on the Java Virtual Machine, mature and usable in production. It offers real threading, performance improvements, and Java interoperability. Fully-compatible with both Ruby 1.8 and 1.9. 
 * Current Version: *1.6.3*
 * Download: =>[http://jruby.org/|JRuby Web Site]
 ]
 txt_section[
 	@title[Rubinius]
+  @notoc[true]
 A C++ and =>[http://llvm.org/|LLVM]-powered Ruby implementation. Although still not as mature as YARV or JRuby, it's getting there. It currently aims at being compatible with Ruby 1.8.7, although support for Ruby 1.9 is planned. 
 * Current Version: *1.2.4*
 * Download: =>[http://rubini.us/|Rubinius Web Site]
@@ -45,13 +49,14 @@ A C++ and =>[http://llvm.org/|LLVM]-powered Ruby implementation. Although still 
 txt_section[
 	@title[MacRuby]
 	@id[macruby]
+  @notoc[true]
 A Mac-only Ruby implementation compatible with Ruby 1.9, specifically tuned for Mac OS X operating systems.
 * Current Version: *0.10*
 * Download: =>[http://www.macruby.org/|MacRuby Web Site]
 ]
 txt_section[
 	@title[IronRuby]
-  @id[ironruby]
+  @notoc[true]
 A .NET implementation of the Ruby Programming Language, compatible with Ruby 1.8.6 (IronRuby 1.0) and 1.9 (IronRuby 1.1.1 onwards). Not as mature as the other implementations.
 * Current Version: *1.1.3*
 * Download: =>[http://www.ironruby.net/|IronRuby Web Site]

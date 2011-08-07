@@ -17,77 +17,77 @@ book[
 		toc[]
 		introduction[
 			@title[So you want to learn Ruby...]
-			@src[intro]
+			include[intro]
 			section[
 				@title[About this Book]
-				@src[notes]
+				include[notes]
 			]
 		]
 	]
   @bodymatter[  
 		chapter[
 			@title[Quick Tour]
-			@src[language]
+			include[language]
 			section[
 				@title[10 Good Things about Ruby]
 				@id[ten-good-things]
-				@src[ten-good-things]
+				include[ten-good-things]
 			]
 			section[
 				@title[Versions and Implementations]
 				@id[implementations]
-				@src[implementations]
+				include[implementations]
 			]
 			section[
 				@title[Syntax]
 				@id[syntax]
-				@src[syntax]
+				include[syntax]
 			]
 			section[
 				@title[The Core and the Standard Library]
 				@id[core-stdlib]
-				@src[core-stdlib]
+				include[core-stdlib]
 			]
 			section[
 				@title[Advanced Language Features]
 				@id[features]
-				@src[features]
+				include[features]
 			]
 		]
 		chapter[
 			@title[Ruby Gems]
 			@id[gems]
-			@src[gems]
+			include[gems]
 			section[
 				@title[What you can use for...]
-				@src[gem-tips]
+				include[gem-tips]
 			]
 		]
 		chapter[
 			@title[Resources]
 			@id[resources]
-			@src[resources]
+			include[resources]
 			section[
 				@title[Web Sites]
 				@id[websites]
-				@src[web-sites]
+				include[web-sites]
 			]
 			section[
 				@title[Books]
 				@id[books]
-				@src[books]
+				include[books]
 			]
 			section[
 				@title[Podcasts and Screencasts]
 				@id[podcasts]
-				@src[podcasts]
+				include[podcasts]
 			]
   	]
 	]
 	@backmatter[
 		appendix[
 			@title[Notable Rubyists]
-			@src[rubyists]
+			include[rubyists]
 		]
 	]
 ]
