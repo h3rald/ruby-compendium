@@ -2,11 +2,11 @@ namespace :generate do
   desc "Create output for h3rald.com integration"
   task :h3rald => [:web5] do
     dir = Glyph::PROJECT/'output/h3rald'
-    (dir/"glyph/book").mkpath
+    (dir/"ruby-compendium/book").mkpath
     # Copy files in subdir
     (dir).find do |i|
       if i.file? then
-        next if i.to_s.match(Regexp.escape(dir/'glyph')) 
+        next if i.to_s.match(Regexp.escape(dir/'ruby-compendium')) 
         dest = dir/"ruby-compendium/book/#{i.relative_path_from(Glyph::PROJECT/dir)}"
         src = i.to_s
         Pathname.new(dest).parent.mkpath
@@ -24,7 +24,7 @@ namespace :generate do
 		project = Glyph.filter %{layout/project[
 				@contents[#{file_load(Glyph::PROJECT/'text/notes.glyph')}]
 			]}
-		file_write dir/"ruby-compendium.textile", project
+		file_write dir/"ruby-compendium.erb", project
 
   end	
 end
