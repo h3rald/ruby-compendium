@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Ruby Compendium - H3RALD</title>
+    <title>{{title}} - H3RALD</title>
 		<link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
 		
 		
@@ -78,13 +78,15 @@
 				<article class="page">
 			  <header class="row">
         <hgroup class="col-md-9">
-        <h1>Glyph - Document Authoring Framework</h1>
-        <h2>Documentation</h2>
-	      </hgroup>
+      <h1>{{title}}</h1>
+      <h2>Glyph</h2>
+      </hgroup>
       </header>
       <section id="body-text" class="hyphenate">
 
-      toc[]
+							navigation[{{id}}]
+							{{contents}}
+							navigation[{{id}}]
 
       </section>
       </article>
@@ -129,3 +131,5 @@
  <!-- End Google Analytics --> 
 	</body>
 </html>
+
+
